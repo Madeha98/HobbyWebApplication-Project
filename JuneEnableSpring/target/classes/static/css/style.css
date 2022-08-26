@@ -1,0 +1,39 @@
+.form-div {
+  border: 2px solid black;
+  display: inline-block;
+  width: 25%;
+  margin-left: 2%;
+  padding: 10px;
+}
+
+.results-div {
+  border: 2px solid black;
+  display: inline-block;
+  width: 50%;
+  margin-left: 2%;
+}
+
+.entry-parent {
+  padding-left: 30%;
+}
+
+.entry-div {
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  height: 2em;
+  margin-top: 4px;
+  width: 50%;
+  text-align: center;
+  background-color: rgb(35, 152, 142);
+  display: inline-block;
+}
+
+#idInput {
+  display: inline;
+  width: 20%;
+}
+
+.btn-sm {
+  margin-left: 5px;
+}

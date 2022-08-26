@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `item`;
+
+CREATE TABLE `item` (
+`id` BIGINT AUTO_INCREMENT,
+`name` VARCHAR(255) NOT NULL,
+`quantity` INT NOT NULL,
+`price` FLOAT NOT NULL,
+PRIMARY KEY(`id`)
+);
