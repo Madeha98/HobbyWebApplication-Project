@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 100px;
+}
+
+.navbar h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+
+.showcase::before,
+.showcase::after {
+  content: "";
+  position: absolute;
+  height: 25%;
+  bottom: 5%;
+  right: 0;
+  left: 0;
+  background: var(--primary-color);
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
+.form-div {
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  width: 25%;
+  background-color: var(--secondary-color);
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  margin: 10px;
+}
+
+.results-div {
+  border: 2px solid black;
+  display: inline-block;
+  width: 50%;
+  margin-left: 2%;
+}
+
+.entry-parent {
+  padding-left: 30%;
+}
+
+.entry-div {
+  border: solid var(--primary-color);
+  border-width: 2px;
+  border-radius: 5px;
+  height: 2em;
+  margin-top: 4px;
+  width: 70%;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: #fff;
+  display: inline-block;
+}
+
+#idInput {
+  display: inline;
+  width: 20%;
+}
+
+.btn-sm {
+  margin-left: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
