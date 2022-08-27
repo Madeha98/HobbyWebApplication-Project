@@ -1,0 +1,5 @@
+com\qa\main\controllers\ItemController.class
+com\qa\main\JuneEnableSpringApplication.class
+com\qa\main\repos\ItemRepo.class
+com\qa\main\domain\Item.class
+com\qa\main\services\ItemService.class
