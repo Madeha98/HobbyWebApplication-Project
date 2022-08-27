@@ -1,0 +1,3 @@
+com\qa\main\controllers\ItemControllerUnitTest.class
+com\qa\main\services\ItemServiceUnitTest.class
+com\qa\main\controllers\ItemControllerIntegrationTest.class

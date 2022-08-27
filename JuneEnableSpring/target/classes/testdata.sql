@@ -1,0 +1,1 @@
+INSERT INTO `item`(`name`, `quantity`, `price`) VALUES ('Jumper', 1, 800);
